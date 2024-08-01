@@ -27,7 +27,7 @@ Create table Products (
 
 
 CREATE TABLE ProductInventory (
-    ID INT,
+    ID INT AUTO_INCREMENT,
     ProductID INT,
     WarehouseAmount INT,
     WarehouseID INT,
