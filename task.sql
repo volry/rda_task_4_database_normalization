@@ -41,8 +41,8 @@ CREATE TABLE ProductInventory (
 INSERT INTO Countries (ID,Name) VALUES (1, 'Country1');
 INSERT INTO Countries (ID,Name) VALUES (2, 'Country2');
 
-INSERT INTO Warehouses (Name, Address, CountryID) VALUES ('Warehouse-1','City-1', 'Street-1',1);
-INSERT INTO Warehouses (Name, Address, CountryID) VALUES ('Warehouse-2','City-2', 'Street-2',2);
+INSERT INTO Warehouses (Name, Address, CountryID) VALUES ('Warehouse-1','City-1 - Street-1',1);
+INSERT INTO Warehouses (Name, Address, CountryID) VALUES ('Warehouse-2','City-2 - Street-2',2);
 
 INSERT INto Products (Name) VALUES ('Super-ukrainianProduct');
     
